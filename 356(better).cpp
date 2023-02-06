@@ -14,7 +14,7 @@ void addEdge(vector<int> adj[], int u, int v)
 // representation of graph
 void printGraph(vector<int> adj[], int V)
 {
-    for (int v = 0; v < V; ++v)
+    for (int v = 0; v < V; v++)
     {
         cout << "\n Adjacency list of vertex " << v
              << "\n head ";
